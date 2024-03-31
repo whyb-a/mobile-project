@@ -32,6 +32,7 @@ google-services.json
 # Android Profiling
 *.hprof
 
+
 # Java specific ignores
 *.class
 # Package Files #
