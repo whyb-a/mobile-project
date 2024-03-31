@@ -31,3 +31,28 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Java specific ignores
+*.class
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid accidentally publishing secrets
+secrets.properties
